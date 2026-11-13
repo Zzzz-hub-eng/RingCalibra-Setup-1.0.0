@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+
+# 运行输出 (体积大, 不入库)
+batch_results/
+ring_results/
+output/
+
+# 示例图片体积大, 请自行放入
+examples/*.jpg
+examples/*.jpeg
+examples/*.png
+examples/*.tif
+examples/*.tiff
+examples/*.bmp
